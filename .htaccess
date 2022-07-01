@@ -1,0 +1,86 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+# GZIP compression for text files: HTML, CSS, JS, Text, XML, fonts
+#<IfModule mod_deflate.c>
+#AddOutputFilterByType DEFLATE application/javascript
+#AddOutputFilterByType DEFLATE application/rss+xml
+#AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+#AddOutputFilterByType DEFLATE application/x-font
+#AddOutputFilterByType DEFLATE application/x-font-opentype
+#AddOutputFilterByType DEFLATE application/x-font-otf
+#AddOutputFilterByType DEFLATE application/x-font-truetype
+#AddOutputFilterByType DEFLATE application/x-font-ttf
+#AddOutputFilterByType DEFLATE application/x-javascript
+#AddOutputFilterByType DEFLATE application/xhtml+xml
+#AddOutputFilterByType DEFLATE application/xml
+#AddOutputFilterByType DEFLATE font/opentype
+#AddOutputFilterByType DEFLATE font/otf
+#AddOutputFilterByType DEFLATE font/ttf
+#AddOutputFilterByType DEFLATE image/svg+xml
+#AddOutputFilterByType DEFLATE image/x-icon
+#AddOutputFilterByType DEFLATE text/css
+#AddOutputFilterByType DEFLATE text/html
+#AddOutputFilterByType DEFLATE text/javascript
+#AddOutputFilterByType DEFLATE text/plain
+#AddOutputFilterByType DEFLATE text/xml
+#</IfModule>
+
+# Cache files of the following types for 1 week
+#<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg)$">
+#   Header set Cache-Control "max-age=604800, public"
+#</FilesMatch>
+
+# redirect sections
+# home
+RewriteRule ^home$          home/index.php/#/home [L,NC]
+RewriteRule ^ecommerce$     ecommerce/index.php/#/ecommerce [L,NC]
+RewriteRule ^emexs$         emexs/index.php/#/emexs [L,NC]
+RewriteRule ^ofiprix$       ofiprix/index.php/#/ofiprix [L,NC]
+RewriteRule ^avantio$       avantio/index.php/#/avantio [L,NC]
+# software
+RewriteRule ^php$           php/index.php/#/php [L,NC]
+RewriteRule ^codeigniter$   codeigniter/index.php/#/codeigniter [L,NC]
+RewriteRule ^zend$          zend/index.php/#/zend [L,NC]
+RewriteRule ^wordpress$     wordpress/index.php/#/wordpress [L,NC]
+RewriteRule ^prestashop$    prestashop/index.php/#/prestashop [L,NC]
+RewriteRule ^javascript$    javascript/index.php/#/javascript [L,NC]
+# resume
+RewriteRule ^resume$        index.php/#/studio [L,NC]
+RewriteRule ^studies$       studies/index.php/#/studies [L,NC]
+# blog
+# RewriteRule ^blog$          blog/index.php/#/ethos [L,NC]
+RewriteRule ^blogdetail$    blogdetail/index.php/#/blogdetail [L,NC]
+# projects
+RewriteRule ^projects$                              projects/index.php/#/projects [L,NC]
+RewriteRule ^projects/([a-zA-Z0-9\-]+)?$            projects/index.php/#/projects [L,NC]
+# projectsemexs
+RewriteRule ^projectsemexs$                         projectsemexs/index.php/#/projectsemexs [L,NC]
+RewriteRule ^projectsemexs/([a-zA-Z0-9\-]+)?$       projectsemexs/index.php/#/projectsemexs [L,NC]
+# projectsecommerce
+RewriteRule ^projectsecommerce$                     projectsecommerce/index.php/#/projectsecommerce [L,NC]
+RewriteRule ^projectsecommerce/([a-zA-Z0-9\-]+)?$   projectsecommerce/index.php/#/projectsecommerce [L,NC]
+# projectsofiprix
+RewriteRule ^projectsofiprix$                       projectsofiprix/index.php/#/projectsofiprix [L,NC]
+RewriteRule ^projectsofiprix/([a-zA-Z0-9\-]+)?$     projectsofiprix/index.php/#/projectsofiprix [L,NC]
+# projectavantio
+RewriteRule ^projectsavantio$                       projectsavantio/index.php/#/projectsavantio [L,NC]
+RewriteRule ^projectsavantio/([a-zA-Z0-9\-]+)?$     projectsavantio/index.php/#/projectsavantio [L,NC]
+
+# admin
+RewriteRule ^admin$     admin/index.php/#/ecommerce [L,NC]
+
+# store
+RewriteRule ^store$     store/index.php [L,NC]
+
+# Reescrituras de http to https y no wwww to wwww
+# RewriteCond %{HTTP_HOST} !^www.davidberruezo.com$ [OR]
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://www.davidberruezo.com/$1 [R=301,L]
+
+
+# Reescrituras de http to https y no wwww to wwww
+# RewriteCond %{HTTP_HOST} !^davidberruezo.com$ [OR]
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://davidberruezo.com/$1 [R=301,L]

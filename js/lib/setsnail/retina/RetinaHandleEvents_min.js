@@ -1,0 +1,2 @@
+RetinaHandleEvents = {};
+RetinaHandleEvents.CHANGE = "CHANGE";
