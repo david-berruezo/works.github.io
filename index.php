@@ -1,16 +1,22 @@
-<?php include_once("./includes/funciones.php"); ?>
+<?php include_once("./../includes/funciones.php"); ?>
 <!DOCTYPE html>
 <html lang='en'>
-<head>
-<?php include_once ('./includes/head.php'); ?>
-</head>
+    <head>
+        <?php include_once ('./../includes/head.php'); ?>
+    </head>
+
 	<body>
       
 		<div style='display: none;' id='content'>
+
 			<div data-name="general-data">
+
 				<div data-name="menu">
+
 					<div data-name="contact">
+
 						<div data-name="headline">Contact</div>
+
 						<div data-name="columns">
 							
 							<div data-name="column">
@@ -26,6 +32,7 @@
 							<div data-name="column">
 								+34 615 23 15 33<br>
 								<a href="#" target="_top">davidberruezo@davidberruezo.com</a>
+
 							</div>
 							
 							<div data-name="column">
@@ -36,10 +43,12 @@
 							
 						</div>
 					</div>
+
 					<div data-name="footer">
 						<div data-name="copyright" >Copyright 2018 © <a target="_blank" href="https://davidberruezo.com">https://davidberruezo.com</a></div>
 						<div data-name="cvr" >+34 615 23 15 33</div>
 					</div>
+
 					<div data-name="social">
 						<div data-name="facebook" data-link="https://www.facebook.com/davidberruezo">Facebook</div>
 						<div data-name="linkedin" data-link="https://www.linkedin.com/david-berruezo">LinkedIn</div>
@@ -47,13 +56,17 @@
 						<div data-name="twitter" data-link="https://twitter.com/davidberruezo/">Twitter</div>
 					</div>
 				</div>
+
 				<div data-name="pagefooter">
 					<div data-name="email"><a href="#" target="_top">davidberruezo@davidberruezo.com</a></div>
 					<div data-name="phone">+34 615 23 15 33</div>
 				</div>
+
 			</div>
 			<!-- general data -->
+
 			<div data-name="pages">
+
 				<div data-path='home' data-template="home">
 					
 					<div data-submenu="yes" data-name="menu">Home</div>
@@ -69,17 +82,19 @@
 							<br>
 							Spain
 						</div>
+
 						<!--
 						<div data-name="link" data-link="projects">Selected Projects</div>
 						-->
 						
 						<div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
 						<div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
-						<div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
-							
-						<div data-name="body">
-							Full Stack Developer<br>
-							Frontend: JavaScript , es6|7 css3 , sass<br>
+						<div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>
+
+
+                        <div data-name="body">
+                            Full Stack Developer<br>
+                            Frontend: JavaScript , es6|7 css3 , sass<br>
                             Backend: PhP , MySQL<br>
                             Cms: WordPress , Prestashop<br>
                             Frameworks: CodeIgniter , Symfony, Laravel , Zend
@@ -87,6 +102,7 @@
                         </div>
 						
 					</div>
+
 
 					<div data-name="stories">
 
@@ -130,39 +146,37 @@
 						 <div data-name="image"><?php echo $url; ?>upload/homesweethomevillas/nueva2/plantilla_imagen_1.png</div>
 						 <div data-name="image"><?php echo $url; ?>upload/homesweethomevillas/nueva2/plantilla_imagen_2.png</div>
                      </div>
-                  </div>   
-                     
+                  </div>
 
-                    <div data-name="story">
-                        <div data-name="date">January 01 — 2021</div>
-                        <div data-name="headline">Box34 | Peugeot</div>
-                        <div data-name="body">
-                            <div>
-                                <b>Box34 | Peugeot</b>
-                                <br>
-                                Incidence Manager Backend
-                                <br>
-                                <a target="_blank" href="https://taller.concesionariobox34.com">https://taller.concesionariobox34.com</a>
-                            </div>
-                        </div>
-                        <div data-name="image-tag-name">eCommerce Bacelona</div>
-                        <div data-name="images">
-                            <div data-name="image"><?php echo $url; ?>upload/box34/plantilla_1.png</div>
-                            <div data-name="image"><?php echo $url; ?>upload/box34/plantilla_2.png</div>
-                        </div>
-                    </div>
-
+                     <div data-name="story">
+                         <div data-name="date">January 01 — 2021</div>
+                         <div data-name="headline">Box34 | Peugeot</div>
+                         <div data-name="body">
+                             <div>
+                                 <b>Box34 | Peugeot</b>
+                                 <br>
+                                 Incidence Manager Backend
+                                 <br>
+                                 <a target="_blank" href="https://taller.concesionariobox34.com">https://taller.concesionariobox34.com</a>
+                             </div>
+                         </div>
+                         <div data-name="image-tag-name">eCommerce Bacelona</div>
+                         <div data-name="images">
+                             <div data-name="image"><?php echo $url; ?>upload/box34/plantilla_1.png</div>
+                             <div data-name="image"><?php echo $url; ?>upload/box34/plantilla_2.png</div>
+                         </div>
+                     </div>
 
                      <div data-name="story">
                         <div data-name="date">September 02 — 2020</div>
-                        <div data-name="headline">PisosEnManresa</div>
+                        <div data-name="headline">PisosEnManresa eCommerce</div>
                         <div data-name="body">
                            <div>
                               <b>PisosEnManresa</b>
                               <br>
                               eCommerce website
                               <br>
-                              <a target="_blank" href="https://www.pisosenmanresa.com">https://www.pisosenmanresa.com</a>
+                              <a target="_blank" href="https://www.pisosenmanresa.com">https://pisosenmanresa.com</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -172,7 +186,7 @@
                         </div>
                      </div>
 
-                        <div data-name="story">
+                     <div data-name="story">
                         <div data-name="date">October 29 — 2018</div>
                         <div data-name="headline">Ofichairs</div>
                         <div data-name="body">
@@ -192,6 +206,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/ofichairs/imagen_2.png</div>
                         </div>
                      </div>   
+
                      <div data-name="story">
                         <div data-name="date">Jannuary 15 — 2019</div>
                         <div data-name="headline">Oracle - Mrw Webservice</div>
@@ -211,7 +226,9 @@
                            <div data-name="image"><?php echo $url; ?>upload/mrw-ofichairs/plantilla_imagen_1.jpg</div>
                            <div data-name="image"><?php echo $url; ?>upload/mrw-ofichairs/plantilla_imagen_2.jpg</div>
                         </div>
+
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">October 02 — 2002</div>
                         <div data-name="headline">Hostal Paris Barcelona Slideshow</div>
@@ -230,6 +247,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">October 15 — 2002</div>
                         <div data-name="headline">Hostal Paris Barcelona Store</div>
@@ -248,6 +266,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/hostalparisbcn_tienda/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">November 5 — 2002</div>
                         <div data-name="headline">Your Spanish Wine Slideshow</div>
@@ -266,6 +285,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/yourspanish_wine_slideshow/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">Desember 01 — 2002</div>
                         <div data-name="headline">Your Spanish Wine Tienda</div>
@@ -284,6 +304,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/yourspanish_wine_tienda/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">Desember 15 — 2002</div>
                         <div data-name="headline">2automocion</div>
@@ -321,6 +342,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_zend/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">January 28 — 2003</div>
                         <div data-name="headline">David Berruezo Backend</div>
@@ -339,6 +361,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_zend_intranet/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">February 01 — 2003</div>
                         <div data-name="headline">David Berruezo Blog</div>
@@ -357,6 +380,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_zend_blog/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">February 15 — 2003</div>
                         <div data-name="headline">David Berruezo Articles Blog</div>
@@ -375,6 +399,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_articles/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">March 02 — 2003</div>
                         <div data-name="headline">David Berruezo Portfolio</div>
@@ -393,6 +418,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_portfolio/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">March 15 — 2003</div>
                         <div data-name="headline">David Berruezo Portfolio Intranet</div>
@@ -411,6 +437,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_portfolio_intranet/plantilla_imagen_2.png</div>
                         </div>
                      </div>   
+
 						<div data-name="story">
 							<div data-name="date">September 29 — 2017</div>
                      <div data-name="headline">Universal</div>
@@ -431,6 +458,7 @@
                           <div data-name="image"><?php echo $url; ?>upload/universal/plantilla_imagen_2.png</div>
 							</div>
 						</div>
+
 						<div data-name="story">
 							<div data-name="date">October 16 — 2017</div>
                      <div data-name="headline">MH Apartments</div>
@@ -451,6 +479,7 @@
                          <div data-name="image"><?php echo $url; ?>upload/mhapartments/plantilla_imagen_5.png</div>
 							</div>
 						</div>
+
 						<div data-name="story">
 							<div data-name="date">November 13 — 2017</div>
                      <div data-name="headline">Hotel Villa Emilia</div>
@@ -471,6 +500,7 @@
                          <div data-name="image"><?php echo $url; ?>upload/hotelvillaemilia/plantilla_imagen_5.png</div>
                      </div>
 						</div>
+
 						<div data-name="story">
 							<div data-name="date">Desember 27 — 2017</div>
                      <div data-name="headline">Yurbban Hotels</div>
@@ -491,6 +521,7 @@
                          <div data-name="image"><?php echo $url; ?>upload/yurbbanhotels/plantilla_imagen_10.png</div>
                      </div>
 						</div>
+
 						<div data-name="story">
 							   <div data-name="date">January 20 — 2018</div>
                         <div data-name="headline">Yurbban Trafalgar</div>
@@ -509,6 +540,7 @@
                             <div data-name="image"><?php echo $url; ?>upload/yurbbantrafalgarhotels/plantilla_imagen_16.png</div>
 							   </div>
 						</div>
+
 						<div data-name="story">
 							<div data-name="date">February 1 — 2018</div>
                      <div data-name="headline">Yurbban Passage Hotels</div>
@@ -527,6 +559,7 @@
                        <div data-name="image"><?php echo $url; ?>upload/yurbbanpassagehotels/plantilla_imagen_20.png</div>
                      </div>
 						</div>
+
 						<div data-name="story">
 							<div data-name="date">March 1 — 2018</div>
                         <div data-name="headline">Homiii</div>
@@ -548,6 +581,7 @@
 							   </div>
 						</div>
 
+
 						<div data-name="story">
 							<div data-name="date">April 21 — 2018</div>
                      <div data-name="headline">Emexs</div>
@@ -568,6 +602,7 @@
 								<div data-name="image"><?php echo $url; ?>upload/emexs/plantilla_imagen_28.png</div>
 							</div>
 						</div>
+
 						<div data-name="story">
 							<div data-name="date">April 28 — 2018</div>
                         <div data-name="headline">Feel at Home</div>
@@ -588,6 +623,7 @@
                              <div data-name="image"><?php echo $url; ?>upload/feelathome/plantilla_imagen_32.png</div>
 							   </div>
 						</div>
+
 
 						<div data-name="story">
 							   <div data-name="date">June 20 — 2018</div>
@@ -649,6 +685,7 @@
                          <div data-name="image"><?php echo $url; ?>upload/aestrasteros/plantilla_imagen_47.png</div>
                      </div>
 						</div>
+
 						<div data-name="story">
 							<div data-name="date">Julay 29 — 2018</div>
                      <div data-name="headline">Primero Primera</div>
@@ -667,6 +704,7 @@
 					         <div data-name="image"><?php echo $url; ?>upload/primeroprimera/plantilla_imagen_51.png </div>
 							</div>
 						</div>
+
 
 						<div data-name="story">
 							<div data-name="date">August 01 — 2018</div>
@@ -765,10 +803,13 @@
 					        <div data-name="image"><?php echo $url; ?>upload/microdentsystem/plantilla_imagen_89.png</div>
 							</div>
                   </div>
+
 					</div>
                <!-- stories -->
+
             </div>
             <!-- home -->
+
 
             <!-- data-path='resume' data-template="profile" -->
             <div data-path='ecommerce' data-template="ecommerce">
@@ -786,10 +827,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         eCommerce Barcelona 360<br>
                         small agency based<br>
@@ -798,7 +841,9 @@
                      </div>
                      
                   </div>
+
                   <div data-name="stories">
+
                     <div data-name="story">
                         <div data-name="date">October 02 — 2002</div>
                         <div data-name="headline">Hostal Paris Barcelona Slideshow</div>
@@ -817,7 +862,9 @@
                            <div data-name="image"><?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                   </div>
+
             </div>
 
             <div data-path='emexs' data-template="emexs">
@@ -835,10 +882,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         Emexs agency based<br>
                         tourism, web design and <br>
@@ -846,9 +895,11 @@
                         in Barcelona
                      </div>
 
+
                   </div>
                   
                   <div data-name="stories">
+
                   <div data-name="story">
 							<div data-name="date">September 29 — 2017</div>
                      <div data-name="headline">Universal</div>
@@ -869,11 +920,15 @@
                           <div data-name="image"><?php echo $url; ?>upload/universal/plantilla_imagen_2.png</div>
 					  </div>
 					</div>
+
 					
+
                   </div>
                   <!-- stories -->
 
+
             </div>
+
        
             <div data-path='ofiprix' data-template="ofiprix">
                
@@ -890,10 +945,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         Ofiprix leader in<br>
                         furniture sales,<br>
@@ -901,9 +958,11 @@
                         and offline sales
                      </div>
                        
+
                   </div>
                   
                   <div data-name="stories">
+
                      <div data-name="story">
                         <div data-name="date">October 29 — 2018</div>
                         <div data-name="headline">Ofichairs</div>
@@ -924,8 +983,9 @@
                            <div data-name="image"><?php echo $url; ?>upload/ofichairs/imagen_2.png</div>
                         </div>
                      </div>   
-                     
+
                   </div>
+
             </div>
 
             <div data-path='avantio' data-template="avantio">
@@ -956,29 +1016,30 @@
                        
                   </div>
                   
-                  <div data-name="story">
-                     <div data-name="date">February 01 — 2021</div>
-                     <div data-name="headline">Home Sweet Home Villas</div>
-                     <div data-name="body">
-                        <div>
-                           <b>Home Sweet Home Villas</b>
-                           <br> 
-                           Tourism Website | CodeIgniter
-                           <br>
-                           Reservation System
-                           <br>
-                           <a target="_blank" href="https://www.homesweethomevillas.com/">https://www.homesweethomevillas.com/</a>   
+                  <div data-name="stories">
+                     <div data-name="story">
+                        <div data-name="date">February 01 — 2021</div>
+                        <div data-name="headline">Home Sweet Home Villas</div>
+                        <div data-name="body">
+                           <div>
+                              <b>Home Sweet Home Villas</b>
+                              <br> 
+                              Online store
+                              <br>
+                              Reservation System
+                              <br>
+                              <a target="_blank" href="https://www.homesweethomevillas.com/">https://www.homesweethomevillas.com/</a>   
+                           </div>
                         </div>
-                     </div>
-                     <div data-name="image-tag-name">Home Sweet Home Villas</div>
-                     <div data-name="images">
-                        <div data-name="image"><?php echo $url; ?>upload/homesweethomevillas/plantilla_imagen_1.jpg</div>
-                        <div data-name="image"><?php echo $url; ?>upload/homesweethomevillas/plantilla_imagen_2.jpg</div>
-                     </div>
+                        <div data-name="image-tag-name">Home Sweet Home Villas</div>
+                        <div data-name="images">
+                           <div data-name="image"><?php echo $url; ?>upload/homesweethomevillas/imagen_1.jpg</div>
+                           <div data-name="image"><?php echo $url; ?>upload/homesweethomevillas/imagen_2.jpg</div>
+                        </div>
+                     </div>   
+                     
                   </div>
-                  
             </div>
-
 
             <div data-path='software' data-template="software">
                   
@@ -995,6 +1056,7 @@
                         <br>
                         Spain
                      </div>
+
                      <!--
                      <div data-name="link" data-link="projects">Selected Projects</div>
                      -->
@@ -1003,6 +1065,7 @@
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         Web programmer<br>
                         Php and JavaScript<br>
@@ -1011,9 +1074,12 @@
                      </div>
                      
                   </div>
+
             </div>
+
             
             
+
             <div data-path='codeigniter' data-template="codeigniter">
                
                <div data-menu="software" data-name="menu">codeIgniter</div>
@@ -1029,10 +1095,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         codeIgniter php framework<br>
                         based in mvc pattern<br>
@@ -1041,7 +1109,9 @@
                      </div>
                      
                   </div>
+
                   <div data-name="stories">
+
                      <div data-name="story">
                         <div data-name="date">March 15 — 2003</div>
                         <div data-name="headline">David Berruezo Portfolio Intranet</div>
@@ -1060,8 +1130,11 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_portfolio_intranet/plantilla_imagen_2.png</div>
                         </div>
                      </div>   
+
                   </div>
+
             </div>
+
             <div data-path='zend' data-template="zend">
                
                <div data-menu="software" data-name="menu">zend</div>
@@ -1077,10 +1150,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         Zend Framework<br>
                         php framework based<br>
@@ -1089,7 +1164,9 @@
                      </div>
                      
                   </div>
+
                   <div data-name="stories">
+
                   <div data-name="story">
                         <div data-name="date">Desember 02 — 2002</div>
                         <div data-name="headline">David Berruezo Portfolio</div>
@@ -1108,9 +1185,11 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_zend/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                   </div>
                   
             </div>   
+
 
             
       
@@ -1129,10 +1208,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         Wordrpress CMS<br>
                         php cms based in<br>
@@ -1143,6 +1224,7 @@
                   </div>
                   
                   <div data-name="stories">
+
                      <div data-name="story">
                         <div data-name="date">January 02 — 2003</div>
                         <div data-name="headline">David Berruezo Blog</div>
@@ -1162,8 +1244,11 @@
                         </div>
                      </div>
 
+
                   </div>   
+
             </div>
+
 
             <div data-path='prestashop' data-template="prestashop">
                
@@ -1180,10 +1265,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         PrestaShop CMS<br>
                         php cms to build<br>
@@ -1192,7 +1279,9 @@
                      </div>
                      
                   </div>
+
                   <div data-name="stories">
+
                      <div data-name="story">
                         <div data-name="date">October 29 — 2018</div>
                         <div data-name="headline">Ofichairs</div>
@@ -1216,7 +1305,9 @@
                      
                   </div>
 
+
             </div>
+
             <div data-path='javascript' data-template="javascript">
                
                <div data-menu="software" data-name="menu">js|es6|es5</div>
@@ -1232,10 +1323,12 @@
                         <br>
                         Spain
                      </div>
+
                      <div class="link_menu" data-name="links" data-link="https://www.davidberruezo.com/blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
+
                      <div data-name="body">
                         JavaScript,ES6,ES5<br>
                         applications using <br>
@@ -1244,7 +1337,9 @@
                      </div>
                      
                   </div>
+
                   <div data-name="stories">
+
                      <div data-name="story">
                         <div data-name="date">March 02 — 2003</div>
                         <div data-name="headline">David Berruezo Portfolio</div>
@@ -1263,6 +1358,7 @@
                            <div data-name="image"><?php echo $url; ?>upload/david_berruezo_portfolio/plantilla_imagen_2.png</div>
                         </div>
                      </div>
+
                      <div data-name="story">
                         <div data-name="date">October 02 — 2002</div>
                         <div data-name="headline">Hostal Paris Barcelona Slideshow<br></div>
@@ -1274,9 +1370,11 @@
                         </div>
                      </div>
 
+
                   </div>
                   
             </div>
+
 				<div data-path='resume' data-template="profile">
 				
 					<div data-submenu="yes" data-name="menu">Resume</div>
@@ -1292,6 +1390,7 @@
 							<br>
 							Spain
 						</div>
+
 						
 						<div data-name="story">
 							+34 615 23 15 33<br>
@@ -1302,6 +1401,7 @@
 							<a href="#" target="_top">davidberruezo@davidberruezo.com</a><br><br>
 							
 						</div>
+
 						<div data-name="body">
 							Resume,studies,<br>
 							skills,experiences<br>
@@ -1312,7 +1412,9 @@
 						<div data-name="link" data-link="projects"><a target="_blank" href="#">More details click here</a></div>
 						
 					</div>
+
 					<div data-name="employees">
+
 						<div data-name="employee">
 							<div data-name="info">
 								<div data-name="name">David Berruezo</div>
@@ -1323,11 +1425,15 @@
 							</div>
 							
 						</div>
+
 						<div data-name="image">assets/images/profile/david.png</div>
+
 					</div>
+
 					<div data-name="service">
 						<div data-name="headline">My Skills</div>
 						<div data-name="body">I have always worked as a programmer in a web environment. Normally programming in php language with javascript and also css3 and html5.</div>
+
 						<div data-name="circles" data-type="round">
 							<div data-name="circle">JavaScript</div>
 							<div data-name="circle">PHP</div>
@@ -1335,18 +1441,24 @@
 							<div data-name="circle">MySQL</div>
 							<div data-name="circle">Photoshop</div>
 						</div>
+
 					</div>
+
 					<div data-name="process">
 						<div data-name="headline">My Studies</div>
 						<div data-name="body">In this section you can see a summary of my academic education made to date.</div>
+
 						<div data-name="circles" data-type="straight">
 							<div data-name="circle">FP2</div>
 							<div data-name="circle">Grau Multimedia UPC</div>
 							<div data-name="circle">Student Computer Engineering</div>
 							
 						</div>
+
 					</div>
+
 				</div>
+
             <div data-path='studies' data-template="studies">
 				
 					<div data-menu="resume" data-name="menu">Studies</div>
@@ -1362,6 +1474,7 @@
 							<br>
 							Spain
 						</div>
+
 						
 						<div data-name="story">
 							+34 615 23 15 33<br>
@@ -1372,6 +1485,7 @@
 							<a href="#" target="_top">davidberruezo@davidberruezo.com</a><br><br>
 							
 						</div>
+
 						<div data-name="body">
 							Resume,studies,<br>
 							skills,experiences<br>
@@ -1382,7 +1496,9 @@
 						<div data-name="link" data-link="projects"><a target="_blank" href="#">More details click here</a></div>
 						
 					</div>
+
 					<div data-name="employees">
+
 						<div data-name="employee">
 							<div data-name="info">
 								<div data-name="name">David Berruezo</div>
@@ -1393,11 +1509,15 @@
 							</div>
 							
 						</div>
+
 						<div data-name="image">assets/images/profile/david.png</div>
+
 					</div>
+
 					<div data-name="service">
 						<div data-name="headline">My Skills</div>
 						<div data-name="body">I have always worked as a programmer in a web environment. Normally programming in php language with javascript and also css3 and html5.</div>
+
 						<div data-name="circles" data-type="round">
 							<div data-name="circle">JavaScript</div>
 							<div data-name="circle">PHP</div>
@@ -1405,18 +1525,24 @@
 							<div data-name="circle">MySQL</div>
 							<div data-name="circle">Photoshop</div>
 						</div>
+
 					</div>
+
 					<div data-name="process">
 						<div data-name="headline">My Studies</div>
 						<div data-name="body">In this section you can see a summary of my academic education made to date.</div>
+
 						<div data-name="circles" data-type="straight">
 							<div data-name="circle">FP2</div>
 							<div data-name="circle">Grau Multimedia UPC</div>
 							<div data-name="circle">Student Computer Engineering</div>
 							
 						</div>
+
 					</div>
+
 				</div>
+
 
             <div data-path='https://davidberruezo.com/cv' data-template="cv">
                <div data-menu="resume" data-name="menu">Cv</div>
@@ -1437,6 +1563,7 @@
 							<br>
 							Spain
 						</div>
+
 						<div data-name="body">
 						Read articles, knowledge,<br> 
 						practices and much more<br>
@@ -1446,35 +1573,44 @@
 						<div data-name="link" data-link="https://davidberruezo.com/cv"><a target="_blank" href="https://davidberruezo.com/cv">More details click here</a></div>	
 						
 					</div>
+
 					<div data-name="sections">
 						<div data-name="section">
 							<div data-name="headline">Examples</div>
 							<div data-name="body">In this section you can see examples,source code,download it and comment to it. I update all examples when I have some time. I hope to have the files up to date.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">roundrect</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Tutorials</div>
 							<div data-name="body">You can read several tutorials I think are very interesting in my opinion and you can comment to it. I apology you if you find some error and I suggest to you to comment it.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">doubletriangle</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Experience</div>
 							<div data-name="body">All information you see, source code, articles, tutorials, information in general I write them from my professional experience and from my studies. For everything you need or want send me an email.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">rectbyrect</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Articles</div>
 							<div data-name="body">I hope you like and comment my articles and I suggest you give to me any ideas to write new articles that you think will be interesting.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">triangle</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Comments</div>
 							<div data-name="body">I hope you write several comments on my blog because I'm sure you have several important thing to write and to say. Many thanks in advance.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">rect</div>
 						</div>
+
 					</div>
 
+
 				</div>
+
+
 
             <div data-path='blogdetail' data-template="principlesdetail">
 					
@@ -1491,6 +1627,7 @@
 							<br>
 							Spain
 						</div>
+
 						<div data-name="body">
 						Read articles, knowledge,<br> 
 						practices and much more<br>
@@ -1500,36 +1637,43 @@
 						<div data-name="link" data-link="https://davidberruezo.com/articles"><a target="_blank" href="https://davidberruezo.com/articles">More details click here</a></div>	
 						
 					</div>
+
 					<div data-name="sections">
 						<div data-name="section">
 							<div data-name="headline">Examples</div>
 							<div data-name="body">In this section you can see examples,source code,download it and comment to it. I update all examples when I have some time. I hope to have the files up to date.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">roundrect</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Tutorials</div>
 							<div data-name="body">You can read several tutorials I think are very interesting in my opinion and you can comment to it. I apology you if you find some error and I suggest to you to comment it.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">doubletriangle</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Experience</div>
 							<div data-name="body">All information you see, source code, articles, tutorials, information in general I write them from my professional experience and from my studies. For everything you need or want send me an email.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">rectbyrect</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Articles</div>
 							<div data-name="body">I hope you like and comment my articles and I suggest you give to me any ideas to write new articles that you think will be interesting.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">triangle</div>
 						</div>
+
 						<div data-name="section">
 							<div data-name="headline">Comments</div>
 							<div data-name="body">I hope you write several comments on my blog because I'm sure you have several important thing to write and to say. Many thanks in advance.<a target="_blank" href="#">Click here</a></div>
 							<div data-name="image">rect</div>
 						</div>
+
 					</div>
 
+
 				</div>
-            
+
             <div data-path='https://davidberruezo.com/articles' data-template="blogwordpress">
                <div data-menu="blog" data-name="menu">Wordpress</div>
             </div>
@@ -1540,6 +1684,7 @@
                
                <div data-path='hostalparisbcnslideshow' data-template="case-0">
                   <!-- <div data-path='royalpasseigdegraciahotel' data-template="case-0"> -->
+
                     <div data-name="info">
                         <div data-name="headline">
                             Hostal Paris Barcelona 
@@ -1611,6 +1756,7 @@
                                 Menu with media queries
                              </div>
                         </div>
+
                         <div data-name="moduleImage" width="1920" height="1080">
                             <?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_3.png 
                         </div>
@@ -1626,9 +1772,11 @@
                               </p>
                             </div>
                         </div>
+
                         <div data-name="moduleImage" width="1920" height="1080">
                             <?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_4.png
                         </div>
+
                         <div data-name="moduleText">
                              <div data-name="top">
                                 <p>
@@ -1640,16 +1788,20 @@
                                  </p>
                               </div>
                         </div>
+
                         <div data-name="moduleImage" width="1920" height="1080">
                             <?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_5.png
                         </div>
+
                   </div>
                   <!-- modules -->
                </div>
                <!-- case 0 -->
+
                
 					
 					<!-- project -->	
+
 				</div>
             <!-- projects -->
             
@@ -1659,6 +1811,7 @@
                
                   <div data-path='hostalparisbcnslideshow' data-template="case-0">
                   <!-- <div data-path='royalpasseigdegraciahotel' data-template="case-0"> -->
+
                     <div data-name="info">
                         <div data-name="headline">
                             Hostal Paris Barcelona 
@@ -1730,6 +1883,7 @@
                                 Menu with media queries
                              </div>
                         </div>
+
                         <div data-name="moduleImage" width="1920" height="1080">
                             <?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_3.png 
                         </div>
@@ -1745,9 +1899,11 @@
                               </p>
                             </div>
                         </div>
+
                         <div data-name="moduleImage" width="1920" height="1080">
                             <?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_4.png
                         </div>
+
                         <div data-name="moduleText">
                              <div data-name="top">
                                 <p>
@@ -1759,15 +1915,19 @@
                                  </p>
                               </div>
                         </div>
+
                         <div data-name="moduleImage" width="1920" height="1080">
                             <?php echo $url; ?>upload/hostalparisbcn_slideshow/plantilla_imagen_5.png
                         </div>
+
                   </div>
                   <!-- modules -->
                </div>
                <!-- case 0 -->
+
             </div>
             <!-- projects --> 
+
             <div data-path='projectsemexs' data-template="projectsemexs">
             
 					<div data-menu="projects" data-name="menu">emexs</div>
@@ -1855,13 +2015,13 @@
                         <div data-name="moduleImage" width="1920" height="1080">
                             <?php echo $url; ?>upload/universal/plantilla_imagen_1.jpg
                         </div>
+
                   </div>
                   <!-- modules -->
                </div>
-			   
-               
-					
+			   					
 					<!-- project -->	
+
 				</div>
             <!-- projects -->
 
@@ -1909,6 +2069,7 @@
                         </div>
                     </div>
                     <!-- home -->
+
                     <div data-name="modules">
                             
                             <div data-name="moduleImage" width="1920" height="1080">
@@ -1956,13 +2117,15 @@
                             <div data-name="moduleImage" width="1920" height="1080">
                                 <?php echo $url; ?>upload/universal/plantilla_imagen_1.jpg
                             </div>
+
                     </div>
                     <!-- modules -->
             
                 </div>
                 <!-- project -->	
+
             </div>
-            <!-- projects --> 
+            <!-- projects -->
 
             <div data-path='projectsavantio' data-template="projectsavantio">
             
@@ -2550,14 +2713,17 @@
 
             </div>
             <!-- projects -->
+            
 
-              
 			</div>
 		</div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="<?php echo $url; ?>js/src/setsnail/funciones.js"></script>
+
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script defer src="<?php echo $url; ?>js/src/setsnail/Funciones.js"></script>
+
 		<!-- animation -->
 		<script defer src="<?php echo $url; ?>js/lib/greensock/TweenMax_min.js"></script>
+
 		<!-- Tools n Utils -->
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/system/BrowserDetect_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/debug/Debug_min.js"></script>
@@ -2579,33 +2745,42 @@
 		<!-- TouchLib -->
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/Touchable_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/TouchDragger_min.js"></script>
+
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/utils/DragGroup_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/utils/DragInfo_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/utils/GroupDragger_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/utils/TouchInfo_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/utils/EaseInfo_min.js"></script>
+
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/plugins/DraggerPlugin_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/plugins/DraggerEasePlugin_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/plugins/DragBasic_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/plugins/DragBounds_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/touch/plugins/DragEase_min.js"></script>
+
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/utils/Rectangle_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/utils/MathUtils_min.js"></script>
+
 		<!-- ResizeManager -->
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/resize/ResizeManager_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/resize/ResizeManagerSettings_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/resize/ResizeEvents_min.js"></script>
+
 		<script  src="<?php echo $url; ?>js/lib/setsnail/video/VideoPlayer_min.js"></script>
+
 		<!-- RetinaHandler -->
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/image/RetinaImage_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/retina/RetinaHandle_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/retina/RetinaHandleEvents_min.js"></script>
+
 		<!-- ContentManager -->
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/contentManager/ContentManager_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/lib/setsnail/contentManager/TemplateData_min.js"></script>
+
 		<!--
 		END SnailLib
 		-->
+
 		<!-- Src -->
 		<script src="<?php echo $url; ?>js/src/Main_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/Config_min.js"></script>
@@ -2617,13 +2792,16 @@
 		<!--<script src="js/src/setsnail/utils/GroupedCircles.js"></script>-->
 		<script defer src="<?php echo $url; ?>js/src/setsnail/utils/ScrollController_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/utils/ImageSlider_min.js"></script>
+
 		<!--LINES-->
 		<script defer src="<?php echo $url; ?>js/src/setsnail/utils/Lines/PsychedelicLines_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/utils/Lines/LineMaskDrawer_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/utils/Lines/LineMaskShape_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/utils/Lines/CirclesOnALines_min.js"></script>
+
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/buttons/TextButton_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/text/TextArea_min.js"></script>
+
 		<!-- Templates -->
 		<script defer src="<?php echo $url; ?>js/src/setsnail/templates/PageTemplate_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/templates/TemplateHome_min.js"></script>
@@ -2647,35 +2825,45 @@
       <script defer src="<?php echo $url; ?>js/src/setsnail/templates/TemplatePrincipDetail_min.js"></script>
       <script defer src="<?php echo $url; ?>js/src/setsnail/templates/TemplateProfil_min.js"></script>
       <script defer src="<?php echo $url; ?>js/src/setsnail/templates/TemplateStudies_min.js"></script>
+
 		<!-- Modules -->
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/Module_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/WhiteSpaceModule_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/ReturnModule_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/BasicHomeModule_min.js"></script>
+
       <script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/home/HomeStoryModule_min.js"></script>
+
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/case/CaseOverviewModule_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/case/CaseHomeModule_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/case/CaseImageModule_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/case/CaseVideoModule_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/case/CaseTextModule_min.js"></script>
+
       <script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/casesoverview/OverviewCaseModule_min.js"></script>
+
       <script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/principles/PrincipleSectionModule_min.js"></script>
+
 		<!--<script src="js/src/setsnail/ui/modules/profile/ProfileEmployeeModule_min.js"></script>-->
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/profile/ProfileEmployeeModuleTwo_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/profile/ProfileInfoModule_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/modules/profile/ProfileEmployee_min.js"></script>
+
       <!-- Components -->
       <script defer src="<?php echo $url; ?>js/src/setsnail/ui/components/Footer_min.js"></script>
       <script defer src="<?php echo $url; ?>js/src/setsnail/ui/components/HomeStory_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/components/CasesInfoBox_min.js"></script>
+
 
 		<!-- Menu -->
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MainMenu_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuBorder_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuBorderLines_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuLogo_min.js"></script>
+
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuContent_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuContentBusiness.js"></script>
+
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuContactInfo_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuFooter_min.js"></script>
 		<script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuSelector_min.js"></script>
@@ -2683,18 +2871,16 @@
       <script defer src="<?php echo $url; ?>js/src/setsnail/ui/menu/MenuSocial_min.js"></script>
       
 <script>
-  /*
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-77902370-12', 'auto');
   ga('send', 'pageview');
-  */
 </script>
 <!-- Initialize site -->
 <script>
-    window.onload = function() {
+	window.onload = function() {
 		document.body.style.margin = 0;
 		document.body.style.padding = 0;
 		document.body.style.color = "#1c1c1c";
@@ -2703,9 +2889,11 @@
 		document.body.style.overflowX = "hidden";
 		document.body.style.width = "100%";
 		document.body.style.height = "100%";
-        var main = new Main();
+      var main = new Main();
 		document.body.appendChild(main);
-        main.init();
+      main.init();
+      //console.log("dominio: "+domain);
+      //console.log("pathname: "+pathname);
    };
 </script>
 </body>
