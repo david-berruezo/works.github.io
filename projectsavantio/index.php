@@ -45,7 +45,7 @@
 					</div>
 
 					<div data-name="footer">
-						<div data-name="copyright" >Copyright 2018 © <a target="_blank" href="https://davidberruezo.com">https://davidberruezo.com</a></div>
+						<div data-name="copyright" >Copyright 2018 © <a target="_blank" href="http://works.github.io/">http://works.github.io/</a></div>
 						<div data-name="cvr" >+34 615 23 15 33</div>
 					</div>
 
@@ -174,7 +174,7 @@
                               <br>
                               Slidewhow website
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/hostalparisbcn">https://davidberruezo.com/hostalparisbcn</a>
+                              <a target="_blank" href="http://works.github.io//hostalparisbcn">http://works.github.io//hostalparisbcn</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -440,7 +440,7 @@
                               <br>
                               codeIgniter application
                               <br>
-                              <a target="_blank" href="http://davidberruezo.com/admin">https://davidberruezo.com/admin</a>
+                              <a target="_blank" href="http://davidberruezo.com/admin">http://works.github.io//admin</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -495,7 +495,7 @@
                               <br>
                               Zend Framework
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/davidberruezo/public_html/">https://davidberruezo.com/davidberruezo/public_html/</a>
+                              <a target="_blank" href="http://works.github.io//davidberruezo/public_html/">http://works.github.io//davidberruezo/public_html/</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -514,7 +514,7 @@
                               <br>
                               Zend Framework
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/davidberruezo/public_html/admin/login">https://davidberruezo.com/davidberruezo/public_html/admin/login</a>
+                              <a target="_blank" href="http://works.github.io//davidberruezo/public_html/admin/login">http://works.github.io//davidberruezo/public_html/admin/login</a>
                            </div>
                           </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -572,7 +572,7 @@
                               <br>
                               Wordpress Blog
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/davidberruezo/public_html/blog">https://davidberruezo.com/davidberruezo/public_html/blog</a>
+                              <a target="_blank" href="http://works.github.io//davidberruezo/public_html/blog">http://works.github.io//davidberruezo/public_html/blog</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -688,7 +688,7 @@
                               <br>
                               JavaScript Objects
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/">https://davidberruezo.com/</a>
+                              <a target="_blank" href="http://works.github.io//">http://works.github.io//</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -871,7 +871,7 @@
 				</div>
 
 
-            <div data-path='https://davidberruezo.com/cv' data-template="cv">
+            <div data-path='http://works.github.io//cv' data-template="cv">
                <div data-menu="resume" data-name="menu">Cv</div>
             </div>   
            
@@ -897,7 +897,7 @@
 						click down or in all sections
 						</div>
 					
-						<div data-name="link" data-link="https://davidberruezo.com/cv"><a target="_blank" href="https://davidberruezo.com/cv">More details click here</a></div>	
+						<div data-name="link" data-link="http://works.github.io//cv"><a target="_blank" href="http://works.github.io//cv">More details click here</a></div>	
 						
 					</div>
 
@@ -961,7 +961,7 @@
 						click down or in all sections
 						</div>
 					
-						<div data-name="link" data-link="https://davidberruezo.com/articles"><a target="_blank" href="https://davidberruezo.com/articles">More details click here</a></div>	
+						<div data-name="link" data-link="http://works.github.io//articles"><a target="_blank" href="http://works.github.io//articles">More details click here</a></div>	
 						
 					</div>
 
@@ -1001,7 +1001,7 @@
 
 				</div>
 
-            <div data-path='https://davidberruezo.com/articles' data-template="blogwordpress">
+            <div data-path='http://works.github.io//articles' data-template="blogwordpress">
                <div data-menu="blog" data-name="menu">Wordpress</div>
             </div>
 
@@ -1041,7 +1041,7 @@
                             Database:&nbsp; nothing<br />
                             Animations:&nbsp; Tween<br />
                             Credits: <b>Hostal Paris Barcelona</b><br>
-                            Website: <a href="https://davidberruezo.com/hostalparisbcn">https://davidberruezo.com/hostalparisbcn</a> 
+                            Website: <a href="http://works.github.io//hostalparisbcn">http://works.github.io//hostalparisbcn</a> 
                            </div>
                         </div>
                         <div data-name="body">
@@ -1166,7 +1166,7 @@
                             Database:&nbsp; nothing<br />
                             Animations:&nbsp; Tween<br />
                             Credits: <b>Hostal Paris Barcelona</b><br>
-                            Website: <a href="https://davidberruezo.com/hostalparisbcn">https://davidberruezo.com/hostalparisbcn</a> 
+                            Website: <a href="http://works.github.io//hostalparisbcn">http://works.github.io//hostalparisbcn</a> 
                            </div>
                         </div>
                         <div data-name="body">
@@ -1266,7 +1266,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://www.davidberruezo.com/hostalparisbcn/hotel">https://davidberruezo.com/hostalparisbcn/hotel</a></div>
+                        <div data-name="website"><a target="_blank" href="https://www.davidberruezo.com/hostalparisbcn/hotel">http://works.github.io//hostalparisbcn/hotel</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/hostalparisbcn_tienda/plantilla_imagen_1.png                    
@@ -1416,7 +1416,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://www.davidberruezo.com/yourspanishwine/html">https://davidberruezo.com/yourspanishwine/html</a></div>
+                        <div data-name="website"><a target="_blank" href="https://www.davidberruezo.com/yourspanishwine/html">http://works.github.io//yourspanishwine/html</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/yourspanish_wine_slideshow/plantilla_imagen_1.png                    
@@ -1542,7 +1542,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://www.davidberruezo.com/yourspanishwine/html/tienda">https://davidberruezo.com/yourspanishwine/htmnl/tienda</a></div>
+                        <div data-name="website"><a target="_blank" href="https://www.davidberruezo.com/yourspanishwine/html/tienda">http://works.github.io//yourspanishwine/htmnl/tienda</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/yourspanish_wine_tienda/plantilla_imagen_1.png                    
@@ -1559,7 +1559,7 @@
                             Animations:jQuery<br />
                             Credits: <b>Your Spanish Wine</b>
                             <br>
-                            Website:https://davidberruezo.com/yourspanishwine/tienda
+                            Website:http://works.github.io//yourspanishwine/tienda
                             </div>
                         </div>
                         <div data-name="body">
@@ -1674,7 +1674,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://davidberruezo.com/davidberruezo">https://davidberruezo.com/davidberruezo</a></div>
+                        <div data-name="website"><a target="_blank" href="http://works.github.io//davidberruezo">http://works.github.io//davidberruezo</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/david_berruezo_zend/plantilla_imagen_1.png                    
@@ -1690,7 +1690,7 @@
                             Database:MySQL<br />
                             Animations:Tween Max<br />
                             Php Framework: Zend Framework 2
-                            Website: https://davidberruezo.com/davidberruezo
+                            Website: http://works.github.io//davidberruezo
                             <br>
                             Credits: <b>David Berruezo Portfolio</b>
                             </div>
@@ -1872,7 +1872,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://davidberruezo.com/davidberruezo/login">https://davidberruezo.com/davidberruezo/login</a></div>
+                        <div data-name="website"><a target="_blank" href="http://works.github.io//davidberruezo/login">http://works.github.io//davidberruezo/login</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/david_berruezo_zend_intranet/plantilla_imagen_1.png                    
@@ -1888,7 +1888,7 @@
                             Database:MySQL<br />
                             Animations:Tween<br />
                             Php Framework: Zend Framework 2<br>
-                            Website: <a href="https://davidberruezo.com/davidberruezo/login">https://davidberruezo.com/davidberruezo/login</a><br>
+                            Website: <a href="http://works.github.io//davidberruezo/login">http://works.github.io//davidberruezo/login</a><br>
                             Credits: <b>David Berruezo Intranet</b>
                             </div>
                         </div>
@@ -2005,7 +2005,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://davidberruezo.com/davidberruezo/blog">https://davidberruezo.com/davidberruezo/blog</a></div>
+                        <div data-name="website"><a target="_blank" href="http://works.github.io//davidberruezo/blog">http://works.github.io//davidberruezo/blog</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/david_berruezo_zend_blog/plantilla_imagen_1.png                    
@@ -2021,7 +2021,7 @@
                             Database:Mysql<br />
                             Animations:Tween<br />
                             Php CMS:Wordpress<br />
-                            Website:<a href="https://davidberruezo.com/davidberrruezo/blog">https://davidberruezo.com/davidberrruezo/blog</a><br>
+                            Website:<a href="http://works.github.io//davidberrruezo/blog">http://works.github.io//davidberrruezo/blog</a><br>
                             Credits:<b>eCommerce Barcelona 360</b>
                             </div>
                         </div>
@@ -2125,7 +2125,7 @@
                             Database:Mysql<br />
                             Animations:Tween<br />
                             Php CMS:Wordpress<br />
-                            Website:<a href="https://davidberruezo.com/articles">https://davidberruezo.com/articles</a><br>
+                            Website:<a href="http://works.github.io//articles">http://works.github.io//articles</a><br>
                             Credits:<b>eCommerce Barcelona 360</b>
                             </div>
                         </div>
@@ -2192,7 +2192,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://davidberruezo.com">https://davidberruezo.com</a></div>
+                        <div data-name="website"><a target="_blank" href="http://works.github.io/">http://works.github.io/</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/david_berruezo_portfolio/plantilla_imagen_1.png                    
@@ -2207,7 +2207,7 @@
                             Client Languages: Javascript, jQuuery<br />
                             Database:Mysql<br />
                             Animations:Tween<br />
-                            Website:<a href="https://davidberruezo.com">https://davidberruezo.com</a><br>
+                            Website:<a href="http://works.github.io/">http://works.github.io/</a><br>
                             Credits:<b>eCommerce Barcelona 360</b>
                             </div>
                         </div>
@@ -2356,7 +2356,7 @@
                         <div data-name="year">
                             2012-September                        
                         </div>
-                        <div data-name="website"><a target="_blank" href="https://davidberruezo.com/admin">https://davidberruezo.com/admin</a></div>
+                        <div data-name="website"><a target="_blank" href="http://works.github.io//admin">http://works.github.io//admin</a></div>
                     </div>
                     <div data-name="overviewimage">
                         <?php echo $url; ?>upload/david_berruezo_portfolio_intranet/plantilla_imagen_1.png                    
@@ -2372,7 +2372,7 @@
                             Database:Mysql<br />
                             Animations:Tween<br />
                             Php framework: codeIgniter<br>
-                            Website:<a href="https://davidberruezo.com/admin">https://davidberruezo.com/admin</a><br>
+                            Website:<a href="http://works.github.io//admin">http://works.github.io//admin</a><br>
                             Credits:<b>eCommerce Barcelona 360</b>
                             </div>
                         </div>

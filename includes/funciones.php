@@ -11,7 +11,7 @@ header("Pragma: no-cache");
 
 $url = url_origin($_SERVER);
 //$url = "https://github.com/david-berruezo/works.github.io";
-//$url = "https://davidberruezo.com/";
+//$url = "http://works.github.io//";
 //$url = "http://localhosth/works.github.io/";
 $url = "http://works.github.io/";
 

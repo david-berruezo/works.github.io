@@ -7,7 +7,7 @@ var pathname        = window.location.pathname;
 var location_search = window.location.search;
 
 // local
-//domain = "https://davidberruezo.com";
+//domain = "http://works.github.io/";
 //domain = "http://davidberruezo.net";
 //domain = "http://localhosth/works.github.io";
 domain = "http://works.github.io";

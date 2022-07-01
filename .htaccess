@@ -83,4 +83,4 @@ RewriteRule ^store$     store/index.php [L,NC]
 # Reescrituras de http to https y no wwww to wwww
 # RewriteCond %{HTTP_HOST} !^davidberruezo.com$ [OR]
 # RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://davidberruezo.com/$1 [R=301,L]
+# RewriteRule ^(.*)$ http://works.github.io//$1 [R=301,L]

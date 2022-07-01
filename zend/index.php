@@ -45,7 +45,7 @@
 					</div>
 
 					<div data-name="footer">
-						<div data-name="copyright" >Copyright 2018 © <a target="_blank" href="https://davidberruezo.com">https://davidberruezo.com</a></div>
+						<div data-name="copyright" >Copyright 2018 © <a target="_blank" href="http://works.github.io/">http://works.github.io/</a></div>
 						<div data-name="cvr" >+34 615 23 15 33</div>
 					</div>
 
@@ -87,7 +87,7 @@
 						<div data-name="link" data-link="projects">Selected Projects</div>
 						-->
 						
-						<div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+						<div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
 						<div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
 						<div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
 							
@@ -150,7 +150,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -175,7 +175,7 @@
                               <br>
                               Slidewhow website
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/hostalparisbcn">https://davidberruezo.com/hostalparisbcn</a>
+                              <a target="_blank" href="http://works.github.io//hostalparisbcn">http://works.github.io//hostalparisbcn</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -205,7 +205,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -266,7 +266,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -379,7 +379,7 @@
                      <div data-name="link" data-link="projects">Selected Projects</div>
                      -->
                      
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -414,7 +414,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -439,7 +439,7 @@
                               <br>
                               codeIgniter application
                               <br>
-                              <a target="_blank" href="http://davidberruezo.com/admin">https://davidberruezo.com/admin</a>
+                              <a target="_blank" href="http://davidberruezo.com/admin">http://works.github.io//admin</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -469,7 +469,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -494,7 +494,7 @@
                               <br>
                               Zend Framework
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/davidberruezo/public_html/">https://davidberruezo.com/davidberruezo/public_html/</a>
+                              <a target="_blank" href="http://works.github.io//davidberruezo/public_html/">http://works.github.io//davidberruezo/public_html/</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -513,7 +513,7 @@
                               <br>
                               Zend Framework
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/davidberruezo/public_html/admin/login">https://davidberruezo.com/davidberruezo/public_html/admin/login</a>
+                              <a target="_blank" href="http://works.github.io//davidberruezo/public_html/admin/login">http://works.github.io//davidberruezo/public_html/admin/login</a>
                            </div>
                           </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -546,7 +546,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -571,7 +571,7 @@
                               <br>
                               Wordpress Blog
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/davidberruezo/public_html/blog">https://davidberruezo.com/davidberruezo/public_html/blog</a>
+                              <a target="_blank" href="http://works.github.io//davidberruezo/public_html/blog">http://works.github.io//davidberruezo/public_html/blog</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -622,7 +622,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -680,7 +680,7 @@
                         Spain
                      </div>
 
-                     <div class="link_menu" data-name="links" data-link="https://davidberruezo.com/blog">Blog</div>
+                     <div class="link_menu" data-name="links" data-link="http://works.github.io//blog">Blog</div>
                      <div class="link_menu" data-name="links" data-link="https://github.com/david-berruezo">GitHub</div>
                      <div class="link_menu" data-name="links" data-link="https://codepen.io/david-berruezo">CodePen</div>	
                         
@@ -705,7 +705,7 @@
                               <br>
                               JavaScript Objects
                               <br>
-                              <a target="_blank" href="https://davidberruezo.com/">https://davidberruezo.com/</a>
+                              <a target="_blank" href="http://works.github.io//">http://works.github.io//</a>
                            </div>
                         </div>
                         <div data-name="image-tag-name">eCommerce Bacelona</div>
@@ -889,7 +889,7 @@
 				</div>
 
 
-            <div data-path='https://davidberruezo.com/cv' data-template="cv">
+            <div data-path='http://works.github.io//cv' data-template="cv">
                <div data-menu="resume" data-name="menu">Cv</div>
             </div>   
            
@@ -915,7 +915,7 @@
 						click down or in all sections
 						</div>
 					
-						<div data-name="link" data-link="https://davidberruezo.com/cv"><a target="_blank" href="https://davidberruezo.com/cv">More details click here</a></div>	
+						<div data-name="link" data-link="http://works.github.io//cv"><a target="_blank" href="http://works.github.io//cv">More details click here</a></div>	
 						
 					</div>
 
@@ -979,7 +979,7 @@
 						click down or in all sections
 						</div>
 					
-						<div data-name="link" data-link="https://davidberruezo.com/articles"><a target="_blank" href="https://davidberruezo.com/articles">More details click here</a></div>	
+						<div data-name="link" data-link="http://works.github.io//articles"><a target="_blank" href="http://works.github.io//articles">More details click here</a></div>	
 						
 					</div>
 
@@ -1019,7 +1019,7 @@
 
 				</div>
 
-            <div data-path='https://davidberruezo.com/articles' data-template="blogwordpress">
+            <div data-path='http://works.github.io//articles' data-template="blogwordpress">
                <div data-menu="blog" data-name="menu">Wordpress</div>
             </div>
 
@@ -1059,7 +1059,7 @@
                             Database:&nbsp; nothing<br />
                             Animations:&nbsp; Tween<br />
                             Credits: <b>Hostal Paris Barcelona</b><br>
-                            Website: <a href="https://davidberruezo.com/hostalparisbcn">https://davidberruezo.com/hostalparisbcn</a> 
+                            Website: <a href="http://works.github.io//hostalparisbcn">http://works.github.io//hostalparisbcn</a> 
                            </div>
                         </div>
                         <div data-name="body">
@@ -1184,7 +1184,7 @@
                             Database:&nbsp; nothing<br />
                             Animations:&nbsp; Tween<br />
                             Credits: <b>Hostal Paris Barcelona</b><br>
-                            Website: <a href="https://davidberruezo.com/hostalparisbcn">https://davidberruezo.com/hostalparisbcn</a> 
+                            Website: <a href="http://works.github.io//hostalparisbcn">http://works.github.io//hostalparisbcn</a> 
                            </div>
                         </div>
                         <div data-name="body">
