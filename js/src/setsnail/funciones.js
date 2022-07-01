@@ -10,7 +10,7 @@ var location_search = window.location.search;
 //domain = "https://davidberruezo.com";
 //domain = "http://davidberruezo.net";
 //domain = "http://localhosth/works.github.io";
-domain = "https://github.com/david-berruezo/works.github.io";
+domain = "http://works.github.io";
 
 // get parametters by GET
 function findGetParameter(parameterName) {
