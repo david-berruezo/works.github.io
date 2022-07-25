@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d8b8c0de-027e-4284-96d9-f26b629d9b4b" name="hostwinds">
+        <fileTransfer rootFolder="/home/davidberruezo/public_html" accessType="SFTP" host="192.236.161.142" port="22" sshConfigId="d7d71e8e-508e-48ed-960f-f1974a086fb7" sshConfig="davidberruezo@192.236.161.142:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -115,7 +115,7 @@ function HomeStory(data, storyNumber, bodyTextModel) {
     }
 
     function addSlideButtons() {
-        1 >= _numOfImages || (_leftButton = new RetinaImage("assets/images/logo/arrow_short.png", Assets.RETINA_HANDLE), _rightButton = new RetinaImage("assets/images/logo/arrow_short.png", Assets.RETINA_HANDLE), _leftButton.style.cursor = "pointer", _rightButton.style.cursor = "pointer", Touchable.apply(_leftButton), Touchable.apply(_rightButton), _leftButton.onClick(function() {
+        1 >= _numOfImages || (_leftButton = new RetinaImage(domain+"/assets/images/logo/arrow_short.png", Assets.RETINA_HANDLE), _rightButton = new RetinaImage(domain+"/assets/images/logo/arrow_short.png", Assets.RETINA_HANDLE), _leftButton.style.cursor = "pointer", _rightButton.style.cursor = "pointer", Touchable.apply(_leftButton), Touchable.apply(_rightButton), _leftButton.onClick(function() {
             _imageSlider.nextImg()
         }), _rightButton.onClick(function() {
             _imageSlider.prevImg()

@@ -13,7 +13,8 @@ $url = url_origin($_SERVER);
 //$url = "https://github.com/david-berruezo/works.github.io";
 //$url = "http://works.github.io//";
 //$url = "http://localhosth/works.github.io/";
-$url = "http://works.github.io/";
+//$url = "http://works.github.io/";
+$url = "https://www.davidberruezo.com/";
 
 function url_origin( $s, $use_forwarded_host = false )
 {

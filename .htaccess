@@ -3,34 +3,34 @@ Options +FollowSymlinks
 RewriteEngine on
 RewriteBase /
 # GZIP compression for text files: HTML, CSS, JS, Text, XML, fonts
-#<IfModule mod_deflate.c>
-#AddOutputFilterByType DEFLATE application/javascript
-#AddOutputFilterByType DEFLATE application/rss+xml
-#AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
-#AddOutputFilterByType DEFLATE application/x-font
-#AddOutputFilterByType DEFLATE application/x-font-opentype
-#AddOutputFilterByType DEFLATE application/x-font-otf
-#AddOutputFilterByType DEFLATE application/x-font-truetype
-#AddOutputFilterByType DEFLATE application/x-font-ttf
-#AddOutputFilterByType DEFLATE application/x-javascript
-#AddOutputFilterByType DEFLATE application/xhtml+xml
-#AddOutputFilterByType DEFLATE application/xml
-#AddOutputFilterByType DEFLATE font/opentype
-#AddOutputFilterByType DEFLATE font/otf
-#AddOutputFilterByType DEFLATE font/ttf
-#AddOutputFilterByType DEFLATE image/svg+xml
-#AddOutputFilterByType DEFLATE image/x-icon
-#AddOutputFilterByType DEFLATE text/css
-#AddOutputFilterByType DEFLATE text/html
-#AddOutputFilterByType DEFLATE text/javascript
-#AddOutputFilterByType DEFLATE text/plain
-#AddOutputFilterByType DEFLATE text/xml
-#</IfModule>
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE font/opentype
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/xml
+</IfModule>
 
 # Cache files of the following types for 1 week
-#<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg)$">
-#   Header set Cache-Control "max-age=604800, public"
-#</FilesMatch>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|svg)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
 
 # redirect sections
 # home
@@ -75,9 +75,9 @@ RewriteRule ^admin$     admin/index.php/#/ecommerce [L,NC]
 RewriteRule ^store$     store/index.php [L,NC]
 
 # Reescrituras de http to https y no wwww to wwww
-# RewriteCond %{HTTP_HOST} !^www.davidberruezo.com$ [OR]
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://www.davidberruezo.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^www.davidberruezo.com$ [OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.davidberruezo.com/$1 [R=301,L]
 
 
 # Reescrituras de http to https y no wwww to wwww
