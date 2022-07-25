@@ -7,189 +7,143 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>https://davidberruezo.com/</loc>
+  <loc>http://works.github.io/</loc>
   <lastmod>2020-04-30T08:06:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/home/</loc>
+  <loc>http://works.github.io/home/</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 
 <url>
-  <loc>https://davidberruezo.com/ecommerce/</loc>
+  <loc>http://works.github.io/ecommerce/</loc>
   <lastmod>2020-04-10T07:18:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 
 <url>
-  <loc>https://davidberruezo.com/emexs/</loc>
+  <loc>http://works.github.io/emexs/</loc>
   <lastmod>2020-04-30T08:06:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 
 <url>
-  <loc>https://davidberruezo.com/ofiprix/</loc>
+  <loc>http://works.github.io/ofiprix/</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-	<loc>https://davidberruezo.com/avantio</loc>
+	<loc>http://works.github.io/avantio</loc>
 	<lastmod>2020-04-24T12:59:53+00:00</lastmod>
 	<priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/codeigniter/</loc>
+  <loc>http://works.github.io/codeigniter/</loc>
   <lastmod>2020-04-30T08:06:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/zend/</loc>
+  <loc>http://works.github.io/zend/</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/wordpress/</loc>
+  <loc>http://works.github.io/wordpress/</loc>
   <lastmod>2020-04-10T07:18:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/prestashop/</loc>
+  <loc>http://works.github.io/prestashop/</loc>
   <lastmod>2020-04-30T08:06:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/javascript/</loc>
+  <loc>http://works.github.io/javascript/</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 
 <url>
-  <loc>https://davidberruezo.com/studies/</loc>
+  <loc>http://works.github.io/studies/</loc>
   <lastmod>2020-04-30T08:06:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 
 <url>
-  <loc>https://davidberruezo.com/blogdetail/</loc>
+  <loc>http://works.github.io/blogdetail/</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/projects/</loc>
+  <loc>http://works.github.io/projects/</loc>
   <lastmod>2020-04-10T07:18:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/projectsecommerce/</loc>
+  <loc>http://works.github.io/projectsecommerce/</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 
 <url>
-  <loc>https://davidberruezo.com/projectsemexs/</loc>
+  <loc>http://works.github.io/projectsemexs/</loc>
   <lastmod>2020-04-10T07:18:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-	<loc>https://davidberruezo.com/projectsavantio/</loc>
+	<loc>http://works.github.io/projectsavantio/</loc>
 	<lastmod>2020-04-10T07:18:42+00:00</lastmod>
 	<priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/hostalparisbcn/</loc>
+  <loc>http://works.github.io/hostalparisbcn/</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 
 <url>
-  <loc>https://davidberruezo.com/yourspanishwine/html/</loc>
+  <loc>http://works.github.io/yourspanishwine/html/</loc>
   <lastmod>2020-04-10T07:18:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
+
 <url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/</loc>
+  <loc>http://works.github.io/articles/</loc>
   <lastmod>2020-04-30T08:06:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
 <url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/admin/login</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/blog/</loc>
-  <lastmod>2020-04-30T08:01:31+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://davidberruezo.com/articles/</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://davidberruezo.com/hostalparisbcn/index.html</loc>
+  <loc>http://works.github.io/hostalparisbcn/index.html</loc>
   <lastmod>2020-04-24T12:59:53+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://davidberruezo.com/yourspanishwine/html/index.html</loc>
+  <loc>http://works.github.io/yourspanishwine/html/index.html</loc>
   <lastmod>2020-04-10T07:18:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/index</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/aboutme</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/proyectos</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/opensource/</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/contact</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://davidberruezo.com/davidberruezo/public_html/proyectos/index</loc>
-  <lastmod>2020-04-30T08:06:58+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 
 </urlset>
