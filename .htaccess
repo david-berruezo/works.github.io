@@ -75,9 +75,9 @@ RewriteRule ^admin$     admin/index.php/#/ecommerce [L,NC]
 RewriteRule ^store$     store/index.php [L,NC]
 
 # Reescrituras de http to https y no wwww to wwww
-RewriteCond %{HTTP_HOST} !^www.davidberruezo.com$ [OR]
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://www.davidberruezo.com/$1 [R=301,L]
+# RewriteCond %{HTTP_HOST} !^www.davidberruezo.com$ [OR]
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://www.davidberruezo.com/$1 [R=301,L]
 
 
 # Reescrituras de http to https y no wwww to wwww
